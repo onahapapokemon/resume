@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>canvas</title>
+  <meta charset="utf-8">
+
+  <canvas id="smile" width="1000" height="1000">
+    <p>Ваш браузер не поддерживает рисование.</p>
+  </canvas>
+
+<script type="text/javascript">
+var myCanvas = document.getElementById('smile');
+var cxt = myCanvas.getContext('2d');
+
+cxt.moveTo(100,100);
+cxt.lineTo(120,80);
+
+cxt.moveTo(120,100);
+cxt.lineTo(140,80);
+
+cxt.moveTo(140,100);
+cxt.lineTo(160,80);
+
+cxt.moveTo(160,100);
+cxt.lineTo(180,80);
+
+cxt.moveTo(180,100);
+cxt.lineTo(200,80);
+
+cxt.moveTo(200,100);
+cxt.lineTo(220,80);
+
+cxt.moveTo(220,100);
+cxt.lineTo(240,80);
+
+cxt.moveTo(240,100);
+cxt.lineTo(260,80);
+
+cxt.moveTo(260,100);
+cxt.lineTo(280,80);
+
+cxt.moveTo(280,100);
+cxt.lineTo(300,80);
+
+cxt.moveTo(300,100);
+cxt.lineTo(320,80);
+
+cxt.moveTo(320,100);
+cxt.lineTo(340,80);
+
+cxt.moveTo(340,100);
+cxt.lineTo(360,80);
+
+cxt.moveTo(360,100);
+cxt.lineTo(380,80);
+
+cxt.moveTo(380,100);
+cxt.lineTo(400,80);
+
+cxt.moveTo(100,100);
+cxt.lineTo(400,100);
+
+cxt.moveTo(250,100);
+cxt.lineTo(250,200);
+
+cxt.arc(250,250,50,30,Math.PI*2,true);
+
+cxt.moveTo(200,250);
+cxt.lineTo(200,400);
+
+cxt.moveTo(300,250);
+cxt.lineTo(300,320);
+
+cxt.strokeRect(180,400,40,100);
+cxt.strokeRect(280,320,40,100);
+
+cxt.moveTo(150,400);
+cxt.lineTo(150,500);
+cxt.lineTo(150,400);
+cxt.lineTo(140,430);
+cxt.lineTo(150,400);
+cxt.lineTo(160,430);
+cxt.lineTo(150,400);
+
+cxt.moveTo(350,320);
+cxt.lineTo(350,420);
+cxt.lineTo(340,390);
+cxt.lineTo(350,420);
+cxt.lineTo(360,390);
+
+cxt.stroke();
+</script>
+ </head>
+ <body>
+</html>
